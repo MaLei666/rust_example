@@ -1,6 +1,14 @@
 //fn main() {
 //    println!("Hello, world!");
 //}
+
+//fn main(){
+//    let mut x = 5;
+//    println!("The value of x is: {}", x);
+//    x = 6;
+//    println!("The value of x is: {}", x);
+//}
+
 use std::io;
 use rand::Rng;
 use std::cmp::Ordering;
@@ -37,3 +45,4 @@ fn main() {
     }
     println!("The secret number is: {}", secret_number);
 }
+
